@@ -31,6 +31,20 @@ You need to have the following installed on your machine:
 - [XAMPP or similar](https://www.apachefriends.org/index.html) (for MySQL)
 - [Git](https://git-scm.com/) 
 
+### Important Note
+
+**When uploading the app to GitHub, the `books-frontend` modules may not include all the necessary files. Please download the required files from the following link to ensure the frontend functions correctly:**
+
+1. Download the frontend modules from the link below:
+   
+   [Download Frontend Modules](https://drive.google.com/file/d/11VjKk4_z3yy9XJA3FyZQg1dfDb-yhkCK/view?usp=sharing)
+
+2. Unzip the downloaded files.
+
+3. Paste the folder named `books-frontend` inside the `books-app` folder.
+
+This will ensure that the frontend functions correctly with all the necessary files.
+
 ### Installation
 
 1. **Clone the repository**:
