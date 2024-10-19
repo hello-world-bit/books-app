@@ -48,59 +48,55 @@ You need to have the following installed on your machine:
 3. **Copy .env.example to .env and update the database credentials:**:
 
    ```bash
-cp .env.example .env
-
-
-4. **Set up your .env file for database configuration:**:
-
-  ```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+    cp .env.example .env
+   
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_user
+    DB_PASSWORD=your_database_password
 
 
 
-5. **Generate the application key:**:
+4. **Generate the application key:**:
 
    ```bash
    php artisan key:generate
 
  
 
-6. **Run the migrations to set up the database schema:**:
+5. **Run the migrations to set up the database schema:**:
 
    ```bash
    php artisan migrate
  
 
-7. **Start the Laravel development server:**:
+6. **Start the Laravel development server:**:
 
    ```bash
    php artisan serve
 
  
 
-8. **Open a new Terminal**:
+7. **Open a new Terminal**:
 
  
 
-9. **Navigate to the frontend directory:**:
+8. **Navigate to the frontend directory:**:
 
    ```bash
    cd books-frontend
 
  
 
-10. **Install dependencies:**:
+9. **Install dependencies:**:
 
    ```bash
    npm install
 
  
-11. **Run the Vue.js development server:**:
+10. **Run the Vue.js development server:**:
 
    ```bash
    npm run serve
