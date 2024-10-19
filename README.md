@@ -29,7 +29,7 @@ You need to have the following installed on your machine:
 - [Node.js](https://nodejs.org/en/) (for frontend)
 - [Composer](https://getcomposer.org/) (for Laravel)
 - [XAMPP or similar](https://www.apachefriends.org/index.html) (for MySQL)
-- [Git](https://git-scm.com/) (optional, for version control)
+- [Git](https://git-scm.com/) 
 
 ### Installation
 
@@ -43,7 +43,6 @@ You need to have the following installed on your machine:
 
    ```bash
    composer install
-
  
 3. **Copy .env.example to .env and update the database credentials:**:
 
@@ -56,48 +55,35 @@ You need to have the following installed on your machine:
     DB_USERNAME=your_database_user
     DB_PASSWORD=your_database_password
 
-
-
 4. **Generate the application key:**:
 
    ```bash
-   php artisan key:generate
-
- 
+   php artisan key:generate 
 
 5. **Run the migrations to set up the database schema:**:
 
    ```bash
-   php artisan migrate
- 
+   php artisan migrate 
 
 6. **Start the Laravel development server:**:
 
    ```bash
    php artisan serve
-
- 
-
+   
 7. **Open a new Terminal**:
-
  
 
 8. **Navigate to the frontend directory:**:
 
    ```bash
-   cd books-frontend
-
- 
+   cd books-frontend 
 
 9. **Install dependencies:**:
 
    ```bash
    npm install
-
  
 10. **Run the Vue.js development server:**:
 
    ```bash
    npm run serve
-
-
