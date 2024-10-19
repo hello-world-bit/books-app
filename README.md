@@ -48,8 +48,7 @@ You need to have the following installed on your machine:
 3. **Copy .env.example to .env and update the database credentials:**:
 
    ```bash
-    cp .env.example .env
-   
+    cp .env.example .env   
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
